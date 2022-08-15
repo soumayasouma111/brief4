@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(246, 246, 235);
+    text-align: center; 
+    color: rgb(10, 126, 215);
+}
+
+nav {
+    background: url("./images/Merged\ bar-4@2x.png");
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+    float: right;
+    /* margin: 10px; */
+}
+
+li a {
+    display: block;
+    color: rgb(34, 32, 32);
+    text-align: center;
+    padding: 13px 1vw;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(188, 164, 164);
+}
+
+li:first-child {
+    border-right: none;
+    float: left
+}
+
+select {
+    height: 32px;
+    border-radius: 10px;
+    border-color: rgb(19, 74, 74);
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 5px;
+    width: 100%;
+    padding: 7px 7px;
+    font-size:15px ;
+    /* -webkit-appearance: none;
+    -moz-appearance: none; */
+    appearance: none;
+    background: url("images/Icon\ material-language.svg") 96% / 20% no-repeat transparent;
+}
+
+/*****coco deuxieme partie******/
+/*pour l'arrière plan */
+.coco {
+    background: url("./images/En\ chiffres-34@2x.png");
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    margin-top: 115px;
+}
+
+.owl{
+    color: rgb(62, 62, 205); 
+    padding: 0em 16em;
+}
+
+h3{
+    color: black; margin: 0
+}
+/*****troisieme partie*******/
+main{
+align-items: center;
+}
+
+.owls{
+    align-content: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0px;
+    color: rgb(12, 12, 12);
+    text-align: center;
+}
+article{
+    padding: 4rem;
+}
+
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img{
+    width:6vw;
+    height:6rem;
+}
+
+@media screen {
+    
+}
+
+
